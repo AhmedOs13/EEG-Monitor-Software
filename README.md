@@ -53,8 +53,8 @@ plt.show()
 ![image](https://github.com/user-attachments/assets/2f869b04-859e-47ce-a2bf-814ad2332e4e)
 
 
-## Adding Noise for Experimental Analysis
-In this section, noise is introduced into our EEG data for experimental purposes. The addition of noise to the EEG data is illustrated through a code snippet, which involves resampling the raw signal at a different frequency. The resulting data, now containing noise, is visualized to demonstrate the impact of the added noise on the EEG signal.
+## Resampling Data
+In this section, We resampling the raw signal at a different frequency. The resulting data, now containing noise, is visualized to demonstrate the impact of the added noise on the EEG signal.
 
 ```
 raw_resampled = raw.copy().resample(1000)  # Changing sFreq into 1000
