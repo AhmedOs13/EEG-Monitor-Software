@@ -20,7 +20,7 @@ import mne
 from math import *
 import numpy as np
 import scipy.signal as signal
-import matplotlib.pyplot as pltp
+import matplotlib.pyplot as plt
 ```
 
 ## Accessing and Visualizing EEG Data
